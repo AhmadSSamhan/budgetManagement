@@ -1,6 +1,6 @@
 # BudgetManagement Android App
 
-![App Logo](app_logo.png)
+![App Logo](screenshot_app/icon_logo.png.png)
 
 > Keep track of your expenses and manage your budget effectively with BudgetManagement, an Android app designed to simplify your financial management.
 
