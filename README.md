@@ -1,6 +1,6 @@
 # BudgetManagement Android App
 
-![App Logo](screenshot_app/icon_logo.png.png)
+![App Logo](screenshot_app/icon_logo.png)
 
 > Keep track of your expenses and manage your budget effectively with BudgetManagement, an Android app designed to simplify your financial management.
 
@@ -32,9 +32,13 @@ Welcome to the README.md file for the BudgetManagement Android App. This documen
 
 ## Screenshots
 
-| ![Screenshot 1](screenshot1.png) | ![Screenshot 2](screenshot2.png) |
-|----------------------------------|----------------------------------|
-| Overview of expenses            | Budget planning screen           |
+| ![Screenshot 1](screenshot_app/splash_en.png) | ![Screenshot 2](screenshot_app/home.png) |![Screenshot 3](screenshot_app/theme_f.png)|
+|------------------------------------|----------------------------------|----------------------------------------------|
+| Overview of welcom page            | Budget planning screen           | Dark Theme       |
+
+| ![Screenshot 1](screenshot_app/trans_add.png) | ![Screenshot 2](screenshot_app/month_add.png) |![Screenshot 3](screenshot_app/trans_page_two.png)|
+|------------------------------------|----------------------------------|----------------------------------------------|
+| Transaction page            | Update date           | Smiple list       |
 
 ## Installation
 
