@@ -16,6 +16,9 @@ Welcome to the README.md file for the BudgetManagement Android App. This documen
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+- [Libraries](#libraries)
+- [Architecture](#architecture)
+
 
 ## Features
 
@@ -57,6 +60,36 @@ To install and run the BudgetManagement Android App on your device, follow these
 6. You can add / delete / update Account data, also for Month, Transaction pages.
 7. Try to switch between dark theme, from setting page.
 
+
+## Architecture
+
+The project uses MVVM architecture pattern.
+
+1. Code Language: Kotlin.
+2. Using Hilt techniques.
+3. Binding view.
+4. Android Jetpack Components(ViewModel, Navigation Component ..etc).
+5. Room database.
+6. Kotlin coroutines.
+7. Kotlin flow.
+8. Clean Architecture
+
+## Libraries
+
+* [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel/) - Manage UI
+  related data in a lifecycle conscious way and act as a channel between use cases and ui
+* [DataBinding](https://developer.android.com/topic/libraries/data-binding) - support library that
+  allows binding of UI components in layouts to data sources,binds character details and search
+  results to UI
+* [Navigation Component](https://developer.android.com/guide/navigation/navigation-getting-started) Android Jetpack's Navigation component helps in implementing navigation between fragments
+* [Hilt](https://developer.android.com/training/dependency-injection/hilt-android) - Dependency injection with Hilt.
+* [Retrofit](https://square.github.io/retrofit/) - To access the Rest Api
+* [Kotlin Flow](https://developer.android.com/kotlin/flow) - To access data sequentially
+* [Encrypted SharedPreferences](https://developer.android.com/reference/androidx/security/crypto/EncryptedSharedPreferences) -An implementation of SharedPreferences that encrypts keys and values
+* [Room components](https://developer.android.com/training/data-storage/room) - Save data in a local database using Room.
+* [Kotlin components Coroutine](https://developer.android.com/topic/libraries/architecture/coroutines) - Use Kotlin coroutines with lifecycle-aware components
+* [Lifecycle components](https://developer.android.com/topic/libraries/architecture/lifecycle) -Handling Lifecycles with Lifecycle-Aware Components.
+* [SSP](https://github.com/intuit/ssp) a scalable size unit for texts and Support muitl screen density.
 
 ## Contributing
 
