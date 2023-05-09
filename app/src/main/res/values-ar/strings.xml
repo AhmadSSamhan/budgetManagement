@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BudgetManagement</string>
+    <string name="title_home">الرئيسية</string>
+    <string name="title_settings">الاعدادات</string>
+    <string name="add_account">إضافة حساب</string>
+    <string name="account_name">إسم الحساب:</string>
+    <string name="save_account_name">احفظ اسم الحساب</string>
+    <string name="save">احفظ</string>
+    <string name="empty_account_field">لا يمكن أن يكون العنوان فارغًا</string>
+    <string name="add_your_account_name">أضف اسم حسابك:</string>
+    <string name="settings_page">صفحة الإعدادات</string>
+    <string name="language">اللغه</string>
+    <string name="arabic">العربية</string>
+    <string name="english">الانجليزية</string>
+    <string name="budget_management">إدارة الميزانية</string>
+    <string name="pick_your_date">اختر تاريخ الطلب</string>
+    <string name="select_your_date">حدد التاريخ المطلوب</string>
+    <string name="add_new_account">إضافة حساب جديد!</string>
+    <string name="delete">حذف</string>
+    <string name="there_is_no_account_created">لا يوجد لديك \n اي حساب :( \n قم بالضغط على زر الاضافه</string>
+    <string name="dollar_unit">دولار</string>
+    <string name="dinar_unit">دينار</string>
+    <string name="dollar_currency">دولار:</string>
+    <string name="dinar_currency">دينار:</string>
+    <string name="months_page">صفحه الشهور</string>
+    <string name="update_account">تحديث الحساب!</string>
+    <string name="hint_add_month">حالياً! \n جدول التاريخ الخاص بك فارغ \n اضغط على الزر أدناه للبدء</string>
+    <string name="update_month_date">تحديث الشهر</string>
+    <string name="transaction_page">صفحة المعاملات</string>
+    <string name="hint_transaction">حالياً! \ جدول المعاملات الخاص بك فارغ \ اضغط على الزر أدناه للبدء</string>
+    <string name="description">الوصف</string>
+    <string name="the_amount">المبلغ</string>
+    <string name="add_transaction">أضف معاملة</string>
+    <string name="income_amount">مبلغ الدخل</string>
+    <string name="spend_amount">مبلغ إنفاق</string>
+    <string name="select_your_spend_way">حدد طريقة إنفاقك!</string>
+    <string name="theme_dark">غامق</string>
+    <string name="theme_light">مشرق</string>
+    <string name="theme_mode">وضع السمة</string>
+    <string name="mandatory_field_account_name">اسم الحساب إلزامي! \n الرجاء إضافته</string>
+    <string name="missing_add_desc">أوه! فاتك إضافة وصف</string>
+    <string name="missing_add_amount">أوه! فاتك إضافة مبلغ</string>
+    <string name="missing_add_amount_currency">أوه! فاتك إضافة نوع العملة</string>
+    <string name="missing_add_spend_type">أوه! فاتك إضافة نوع الإنفاق</string>
+
+
+</resources>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name" translatable="false">BudgetManagement</string>
+    <string name="title_home">Home Page</string>
+    <string name="title_settings">Settings</string>
+    <string name="add_account">Add account</string>
+    <string name="account_name">Account Name:</string>
+    <string name="save_account_name">Save account name</string>
+    <string name="save">Save</string>
+    <string name="empty_account_field">Title cannot be Empty</string>
+    <string name="add_your_account_name">Add your account name:</string>
+    <string name="settings_page">Settings Page</string>
+    <string name="language">Language</string>
+    <string name="arabic">Arabic</string>
+    <string name="english">English</string>
+    <string name="budget_management">Budget Management</string>
+    <string name="pick_your_date">Pick your account date</string>
+    <string name="select_your_date">Select your date</string>
+    <string name="add_new_account">Add new account!</string>
+    <string name="delete">Delete</string>
+    <string name="there_is_no_account_created">There is no\n Account Created!! :( \n Click on the add button</string>
+    <string name="dollar_unit">Dollar</string>
+    <string name="dinar_unit">Dinar</string>
+    <string name="dollar_currency">Dollar:</string>
+    <string name="dinar_currency">Dinar:</string>
+    <string name="months_page">Months Page</string>
+    <string name="update_account">Update account!</string>
+    <string name="hint_add_month">Currently! \nyour date table are empty \n hit the below button to start</string>
+    <string name="update_month_date">Update Month</string>
+    <string name="transaction_page">Transaction Page</string>
+    <string name="hint_transaction">Currently! \nyour Transaction table are empty \n hit the below button to start</string>
+    <string name="description">Description</string>
+    <string name="the_amount">The Amount</string>
+    <string name="add_transaction">Add Transaction</string>
+    <string name="income_amount">Income amount</string>
+    <string name="spend_amount">Spend amount</string>
+    <string name="select_your_spend_way">Select your spend way!</string>
+    <string name="theme_dark">Theme Dark</string>
+    <string name="theme_light">Theme light</string>
+    <string name="theme_mode">Theme Mode</string>
+    <string name="mandatory_field_account_name">Account Name is mandatory! \n please add it</string>
+    <string name="missing_add_desc">Oh! You missed adding a description</string>
+    <string name="missing_add_amount">Oh! You missed adding a amount</string>
+    <string name="missing_add_amount_currency">Oh! You missed adding a currency type</string>
+    <string name="missing_add_spend_type">Oh! You missed adding a spend type</string>
+</resources>

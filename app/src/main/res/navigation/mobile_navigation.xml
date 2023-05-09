@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.android.task.budgetmanagement.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_months_fragment"
+            app:destination="@id/navigation_months_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_add_account"
+        android:name="com.android.task.budgetmanagement.ui.create_account.AddAccountDialogFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/dialog_fragment_add_account" />
+    <fragment
+        android:id="@+id/navigation_update_account"
+        android:name="com.android.task.budgetmanagement.ui.update_account.UpdateAccountDialogFragment"
+        android:label="UpdateAccountFragment"
+        tools:layout="@layout/dialog_fragment_update_account" />
+    <fragment
+        android:id="@+id/navigation_months_fragment"
+        android:name="com.android.task.budgetmanagement.ui.month_year.MonthsFragment"
+        android:label="MonthsFragment"
+        tools:layout="@layout/fragment_month_year">
+        <action
+            android:id="@+id/action_navigation_months_fragment_to_navigation_transaction"
+            app:destination="@id/navigation_transaction" />
+        <argument
+            android:name="accountEntity"
+            app:argType="com.android.task.budgetmanagement.data.database.entity.AccountEntity" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_setting"
+        android:name="com.android.task.budgetmanagement.ui.setting.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/navigation_transaction"
+        android:name="com.android.task.budgetmanagement.ui.transaction.TransactionFragment"
+        android:label="fragment_transaction"
+        tools:layout="@layout/fragment_transaction" >
+        <argument
+            android:name="monthEntity"
+            app:argType="com.android.task.budgetmanagement.data.database.entity.MonthYearEntity" />
+    </fragment>
+
+</navigation>
